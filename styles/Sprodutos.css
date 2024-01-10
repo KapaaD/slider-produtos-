@@ -16,7 +16,7 @@ body {
     min-width: 100vh;
 }
 
-h2 {
+.texto {
     color: black;
     font-weight: 300;
     position: relative;
@@ -25,7 +25,7 @@ h2 {
 
 }
 
-h2::after {
+.texto::after {
 
     content: "";
     position: absolute;
@@ -70,10 +70,22 @@ cursor: pointer;
 
 }
 
-.like:hover {
-    background-image:url("/imagens/coracao-red.png");
+.slider .like2 {
+background-image:url("/imagens/coracao-red.png");
+width: 25px;
+height: 25px;
+background-size: 25px;
+display: flex ;
+place-self: flex-end;
+margin-bottom: 0.3rem;
+transition: 0.3s all ease;
+cursor: pointer;
+} 
 
-}
+/* .like:hover {
+background-image:url("/imagens/coracao-red.png"); */
+
+/* } */
 
 .produto {
 width: 100%;
@@ -118,8 +130,9 @@ border: 1px solid #171041;
 padding: 0.5rem 1rem;
 border-radius: 30px;
 cursor:pointer;
-transition: 0.3 all ease;
+transition: 0.3s all ease;
 margin-bottom: 0.8rem;
+text-decoration: none;
 
 }
 
