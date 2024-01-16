@@ -96,6 +96,11 @@ width: 100%;
 font-weight: 300;
 font-size: 20px;
 margin: 0.5rem 0;
+overflow: hidden;
+display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+
 
 }
 
@@ -130,6 +135,7 @@ border: 1px solid #171041;
 padding: 0.5rem 1rem;
 border-radius: 30px;
 cursor:pointer;
+text-align: center;
 transition: 0.3s all ease;
 margin-bottom: 0.8rem;
 text-decoration: none;
